@@ -17,7 +17,7 @@ rgba(255, 255, 255, 0.6) - подвал */
   --accent-background: #2196f3;
   --background-first: #2f303a;
   --background-second: #f5f4fa;
-  --background-white: #ffffff;
+  --button-second-color: #188ce8;
 }
 
 body {
@@ -38,7 +38,7 @@ body {
 }
 /* шапка страницы  */
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .list {
   list-style: none;
@@ -106,7 +106,7 @@ body {
 }
 .button:hover,
 .button:focus {
-  background: #188ce8;
+  background: var(--button-second-color);
 }
 
 /* секция преимущества */
@@ -138,7 +138,7 @@ body {
   background: var(--background-second);
 }
 .list-team {
-  background: var(--background-white);
+  background: var(--primary-background);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -211,7 +211,6 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .portfolio {
-  background: var(--background-white);
   border: 1px solid #eeeeee;
 }
 .our-job {
