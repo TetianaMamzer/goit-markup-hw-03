@@ -70,8 +70,6 @@ img {
   border-bottom: 1px solid #ececec;
 }
 .conteiner.page {
-  padding-top: 25px;
-  padding-bottom: 25px;
   display: flex;
   align-items: center;
 }
@@ -288,10 +286,13 @@ img {
 /* footer */
 footer {
   background: var(--background-first);
-}
-.conteiner.footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.footer .logo {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
 }
 .second-name {
   color: var(--white-text-color);
@@ -301,6 +302,9 @@ footer {
 }
 .address-list {
   margin-bottom: 9px;
+}
+.address-list:nth-child(3n) {
+  margin-bottom: 0;
 }
 .link.maps {
   color: var(--white-text-color);
@@ -327,10 +331,8 @@ footer {
 
 .second-button-list {
   display: flex;
-  width: 612px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 50px;
+  justify-content: center;
 }
 
 .button-main + .button-main {
